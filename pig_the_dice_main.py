@@ -2,7 +2,7 @@ def make_n_persons():
     while True:
         n= int(input('Please set the number of people'))
         if n>0:
-            if>4:
+            if n>4:
                 print("Please set the number under 4")
             else:
                 print(f"The number of people is: {n}")
